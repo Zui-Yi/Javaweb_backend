@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6a5d6c0f-7a1b-43b2-9dc7-9085c990893e" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/day05-SpringBootWebRequest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web-req-resp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web-req-resp/src/main/java/com/rx/SpringbootWebReqRespApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web-req-resp/src/main/java/com/rx/controller/RequestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web-req-resp/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web-req-resp/src/test/java/com/rx/SpringbootWebReqRespApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day04-Maven-SpringBootWebStart/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day04-Maven-SpringBootWebStart/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day04-Maven-SpringBootWebStart/springboot-web-quickstart/src/main/java/com/rx/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day04-Maven-SpringBootWebStart/springboot-web-quickstart/src/main/java/com/rx/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day04-Maven-SpringBootWebStart/springboot-web-quickstart/target/classes/com/rx/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day04-Maven-SpringBootWebStart/springboot-web-quickstart/target/classes/com/rx/controller/HelloController.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="17" />
+  </component>
+  <component name="ProjectId" id="2XLZUMszTQnJkz7Ljqw1W3iL02s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="17" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-web-req-resp/pom.xml" />
+    <property name="project.structure.last.edited" value="全局库" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringbootWebReqRespApplication (1)">
+    <configuration name="SpringbootWebReqRespApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-web-req-resp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rx.SpringbootWebReqRespApplication" />
+      <option name="ENABLE_LAUNCH_OPTIMIZATION" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootWebReqRespApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-web-req-resp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rx.springbootwebreqresp.SpringbootWebReqRespApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SpringbootWebReqRespApplication" />
+      <item itemvalue="Spring Boot.SpringbootWebReqRespApplication (1)" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="6a5d6c0f-7a1b-43b2-9dc7-9085c990893e" name="变更" comment="" />
+      <created>1698410336858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698410336858</updated>
+      <workItem from="1698410338488" duration="2936000" />
+      <workItem from="1698413330707" duration="34000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
