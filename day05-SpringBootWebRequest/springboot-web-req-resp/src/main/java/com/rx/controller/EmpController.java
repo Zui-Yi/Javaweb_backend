@@ -25,6 +25,7 @@ public class EmpController {
         //调用service，获取数据
         List<Emp> empList=empService.listEmp();
 
+        return Result.success(empList);
 
         /*//1、加载并解析emp.xml
                 //String file="D:\\Java-codes\\javaweb_rearend\\day05-SpringBootWebRequest\\springboot-web-req-resp\\src\\main\\resources\\emp.xml"
@@ -56,7 +57,7 @@ public class EmpController {
         */
 
         //3. 响应数据
-        return Result.success(empList);
+        //return Result.success(empList);
 
     }
 
