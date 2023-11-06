@@ -28,4 +28,12 @@ public interface EmpMapper {
     public void delete(List<Integer> ids);
 
     void add(Emp emp);
+
+    @Select("select * from emp where id=#{id}")
+    Emp selectById(Integer id);
+
+    void update(Emp emp);
+
+    @Select("select * from emp where username=#{username} and password=#{password}")
+    Emp getByUsernameAndPassword(Emp emp);
 }

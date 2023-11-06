@@ -6,10 +6,8 @@ import com.rx.mapper.EmpMapper;
 import com.rx.pojo.Emp;
 import com.rx.pojo.PageBean;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Service;
 
-import java.security.PrivateKey;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
@@ -60,6 +58,24 @@ public class EmpService implements com.rx.service.EmpService {
         emp.setCreateTime(LocalDateTime.now());
         emp.setUpdateTime(LocalDateTime.now());
         empMapper.add(emp);
+    }
+
+    @Override
+    public Emp selectById(Integer id) {
+        Emp emp=empMapper.selectById(id);
+        return emp;
+    }
+
+    @Override
+    public void update(Emp emp) {
+        emp.setUpdateTime(LocalDateTime.now());
+        empMapper.update(emp);
+    }
+
+    @Override
+    public Emp login(Emp emp) {
+        Emp e= empMapper.getByUsernameAndPassword(emp);
+        return e;
     }
 
 }
