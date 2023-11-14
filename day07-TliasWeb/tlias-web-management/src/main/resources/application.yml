@@ -33,3 +33,8 @@ aliyun:
     accessKeySecret: 1Z7Lsxi3xrLMk3bMV8KKpHYN6Zi0tz
     bucketName: web-talis-rx
 
+#Spring事物管理开关
+logging:
+  level:
+    org.springframework.jdbc.support.JdbcTransactionManage: debug
+

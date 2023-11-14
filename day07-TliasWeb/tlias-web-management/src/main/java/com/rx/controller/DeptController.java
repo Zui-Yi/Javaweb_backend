@@ -1,9 +1,11 @@
 package com.rx.controller;
 
+import com.rx.aop.MyLog;
 import com.rx.mapper.DeptMapper;
 import com.rx.pojo.Dept;
 import com.rx.pojo.Result;
 import com.rx.service.DeptService;
+import com.rx.service.EmpService;
 import lombok.extern.slf4j.Slf4j;
 //import org.slf4j.Logger;
 //import org.slf4j.LoggerFactory;
@@ -38,16 +40,16 @@ public class DeptController {
         return Result.success(deptList); //10、将得到的的Dept集合返回至web
     }
 
-
+    @MyLog
     @DeleteMapping("/{id}")
     public Result delete(@PathVariable Integer id){
         log.info("根据id删除部门:{}",id);
-
         deptService.delete(id);
+
         return Result.success();
     }
 
-
+    @MyLog
     @PostMapping
     public Result add(@RequestBody Dept dept){ //RequestBody将request的json转为实体类给后端
         log.info("新增部门:{}",dept.getName());
@@ -65,6 +67,7 @@ public class DeptController {
 
     }
 
+    @MyLog
     @PutMapping
     public Result edit(@RequestBody Dept dept){
         log.info("根据id修改部门:{}",dept.getName());

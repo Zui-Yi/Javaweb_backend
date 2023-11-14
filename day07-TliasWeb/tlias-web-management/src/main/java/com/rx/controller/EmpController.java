@@ -1,5 +1,6 @@
 package com.rx.controller;
 
+import com.rx.aop.MyLog;
 import com.rx.pojo.Emp;
 import com.rx.pojo.PageBean;
 import com.rx.pojo.Result;
@@ -32,7 +33,7 @@ public class EmpController {
       return Result.success(pageBean);
     }
 
-
+    @MyLog
     @DeleteMapping("/{ids}")
     public Result delete(@PathVariable List<Integer> ids){
         log.info("批量删除操作,ids:{}",ids);
@@ -42,6 +43,7 @@ public class EmpController {
 
     /*String image,String username,String name,Short gender,Short job,
                       @DateTimeFormat(pattern = "yyyy-MM-dd") LocalDate entrydate,int deptId*/
+    @MyLog
     @PostMapping
     public Result add(@RequestBody Emp emp){
         log.info("添加员工信息:{}",emp);
@@ -57,6 +59,7 @@ public class EmpController {
         return Result.success(emp);
     }
 
+    @MyLog
     @PutMapping
     public Result update(@RequestBody Emp emp){
         log.info("修改员工信息");
