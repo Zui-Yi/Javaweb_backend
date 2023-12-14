@@ -30,11 +30,10 @@ aliyun:
   oss:
     endpoint: https://oss-cn-beijing.aliyuncs.com
     accessKeyId: LTAI5tAgT6yHDr1Xdz83MFbh
-    accessKeySecret: 1Z7Lsxi3xrLMk3bMV8KKpHYN6Zi0tz
+    accessKeySecret: 
     bucketName: web-talis-rx
 
 #Spring事物管理开关
 logging:
   level:
     org.springframework.jdbc.support.JdbcTransactionManage: debug
-
